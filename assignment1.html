@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - Dynamic Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" 
+    integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="container bg-secondary">
+        <h1 class="m-3 bi bi-bus-front-fill" style="text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dynamic table with JS</h1>
+        <h4 class="m-3 bi bi-calculator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We have drawn a 10 x 10 dynamic table below with the use of JavaScript.
+            Feel free to enter the number of rows and columns below (up to or equal 10) to refresh the table.</h4>
+
+        <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="floatingRows" placeholder="11">
+            <label for="floatingRows">Please enter the number of rows</label>
+        </div>
+        <div id="error"></div>
+        <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="floatingColumns" placeholder="11">
+            <label for="floatingColumns">Please enter the number of columns</label>
+        </div>
+        <div id="clmError"></div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-info m-2 bi bi-check-circle-fill" id="button">&nbsp;&nbsp;&nbsp;&nbsp;Reset</button>
+        </div>
+
+
+
+
+        <div id="table-container" class="m-3"></div>
+        <footer><h6>&copy;&nbsp;&nbsp;&nbsp;Sergey Logunov, COMP 125 Section 402 - Winter 2026 term<h6></footer>
+        <br>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="assignment1.js"></script>
+</body>
+</html>
