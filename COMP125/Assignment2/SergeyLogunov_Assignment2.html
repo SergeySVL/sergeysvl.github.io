@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" 
+    integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="assingment2.css">
+</head>
+<body>
+    <div class="container bg-secondary">
+        <br><div class="row greeting"></div>
+
+        <br><div class="row">
+            <h1><i class="bi bi-emoji-sunglasses"></i>&nbsp;&nbsp;&nbsp;Introduction and About Me</h1>
+            <h5>Hello, my name is Sergey Logunov. I am a student in Artificial Intelligence - Software Engineering Program,
+                Semester 2. I enjoy spending time with my kids, going to various parks and playgrounds, watching Youtube and
+                browsing the news.</h5>
+        </div>
+    
+        <br><div class="row" id="current">
+            <h2><i class="bi bi-check-circle"></i>&nbsp;&nbsp;&nbsp;My Current Courses</h2>
+            <ul>
+                <li>COMP-122 --- Introduction to Database Concepts</li>
+                <li>COMP-123 --- Programming 2</li>
+                <li>COMP-125 --- Client-Side Web Development</li>
+                <li>COMP-225 --- Software Requirements Engineering</li>
+                <li>COMP-301 --- Unix/Linux Operating Systems</li>
+                <li>MATH-195 --- Discrete Mathematics and Introductory Calculus</li>
+            </ul>
+            <button type="button" class="btn btn-primary col-3 mx-left" id="courses"><i class="bi bi-clipboard-check">
+                </i>&nbsp;&nbsp;&nbsp;Show Courses From Previous Semesters</button>
+        </div>
+
+        <br><br><div class="row">
+            <h2><i class="bi bi-crosshair"></i>&nbsp;&nbsp;&nbsp;My Mission</h2>
+            <h5 class="mission red">To develop as a strong software engineer by building reliable backend systems, with 
+                the long-term goal of bridging backend engineering and applied AI to deliver practical, 
+                production-ready solutions to real-world problems.</h5>
+            <button type="button" class="btn btn-primary col-3 mx-left" id="textColor">
+                <i class="bi bi-hand-thumbs-up-fill"></i>&nbsp;&nbsp;&nbsp;Change text color</button>
+            </div>
+
+        <br><div class="row">
+            <h2><i class="bi bi-coin"></i>&nbsp;&nbsp;&nbsp;Skills</h2>
+            <ol id="list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+            <button type="button" class="btn btn-primary col-3 mx-left" id="react">Add React to the Skillsket</button>
+            </div>
+
+        <br><footer><h6>&copy;&nbsp;&nbsp;Sergey Logunov, COMP 125 Section 402 - Winter 2026 term - Assignment 2<h6></footer><br>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="assignment2.js"></script>
+</body>
+</html>

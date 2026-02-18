@@ -1,0 +1,38 @@
+
+.red { color: black; }
+
+.red1 { color: red; }
+
+.red2 { color: greenyellow; }
+
+.red3 { color: magenta; }
+
+.red4 { color: blueviolet; }
+
+.align-center { text-align: center; }
+
+.darkorange { color: darkorange; }
+
+ul, ul li, ol, ol li { margin-left: 20px; }
+
+#courses { margin-left: 20px; }
+
+.slide-in {
+    transform: translateX(100vw) translateY(-100vh);
+    animation: slide-in-top 5s ease-out forwards;
+    font-size: 2rem;
+    color: darkorange;
+    opacity: 0;
+    font-weight: bold;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateX(100vw) translateY(-100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+}
